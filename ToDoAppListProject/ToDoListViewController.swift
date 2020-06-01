@@ -27,7 +27,8 @@ class ToDoListViewController: UIViewController,UITableViewDelegate, UITableViewD
     
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        toDoArray.count
+        print("numbers of rows in section was just called \(toDoArray.count)")
+        return toDoArray.count
        }
        
        func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
