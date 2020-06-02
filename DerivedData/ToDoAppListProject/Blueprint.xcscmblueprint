@@ -1,0 +1,23 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A3E07A548D0A5E44EDF8E0EF0E929F880EBCD1EF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A3E07A548D0A5E44EDF8E0EF0E929F880EBCD1EF" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1C3E9D42-885B-4568-B7C5-55E98202562F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A3E07A548D0A5E44EDF8E0EF0E929F880EBCD1EF" : "ToDoAppListProject\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ToDoAppListProject",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ToDoAppListProject.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kilik42\/todolist_swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A3E07A548D0A5E44EDF8E0EF0E929F880EBCD1EF"
+    }
+  ]
+}

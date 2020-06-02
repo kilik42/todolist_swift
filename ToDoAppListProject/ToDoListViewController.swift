@@ -37,6 +37,24 @@ class ToDoListViewController: UIViewController,UITableViewDelegate, UITableViewD
         
         return cell
        }
+    
+    //send data to next view controller
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "ShowDetail"{
+            let destination = segue.destination as! ToDoDetailTableViewController
+            let selectedIndexPath = tableview.indexPathForSelectedRow!
+            destination.toDoItem = toDoArray[selectedIndexPath.row]
+        }
+    }
 
+    @IBAction func unwindFromDetail(segue: UIStoryboardSegue){
+        let source = segue.source as! ToDoDetailTableViewController
+        if let selectedIndexPath = tableview.indexPathForSelectedRow{
+            toDoArray[selectedIndexPath.row] = source.toDoItem
+            tableview.reloadRows(at: [selectedIndexPath], with: .automatic)
+        }
+    }
+    
+    
 }
 
