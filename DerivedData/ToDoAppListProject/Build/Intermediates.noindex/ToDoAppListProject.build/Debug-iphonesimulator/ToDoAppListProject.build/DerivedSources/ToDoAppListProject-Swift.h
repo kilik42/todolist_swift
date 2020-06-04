@@ -260,12 +260,14 @@ SWIFT_CLASS("_TtC18ToDoAppListProject29ToDoDetailTableViewController")
 
 SWIFT_CLASS("_TtC18ToDoAppListProject22ToDoListViewController")
 @interface ToDoListViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+@property (nonatomic, weak) IBOutlet UIBarButtonItem * _Null_unspecified addBarButton;
 @property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified tableview;
 - (void)viewDidLoad;
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 - (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
 - (IBAction)unwindFromDetailWithSegue:(UIStoryboardSegue * _Nonnull)segue;
+- (IBAction)editButtonPressed:(id _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end

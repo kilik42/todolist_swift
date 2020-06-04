@@ -46,6 +46,11 @@
                         <barButtonItem title="Item" id="Ol6-GI-Mz6"/>
                     </toolbarItems>
                     <navigationItem key="navigationItem" id="x9W-MM-zRO">
+                        <barButtonItem key="leftBarButtonItem" title="Edit" id="Y5f-AQ-XWv">
+                            <connections>
+                                <action selector="editButtonPressed:" destination="BYZ-38-t0r" id="dVW-EJ-zyJ"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="fMK-ZD-9nT">
                             <connections>
                                 <segue destination="I5M-AS-1nJ" kind="presentation" identifier="AddDetail" id="KL1-l2-OnH"/>
@@ -54,6 +59,7 @@
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="addBarButton" destination="fMK-ZD-9nT" id="NPm-my-0ux"/>
                         <outlet property="tableview" destination="E3C-Qh-a02" id="qaT-UJ-49Q"/>
                     </connections>
                 </viewController>
