@@ -15,10 +15,12 @@ provides-dynamic-lookup:
 - "toDoItem"
 - "viewDidLoad"
 depends-top-level:
+- !private "=="
 - "AssignmentPrecedence"
 - !private "BooleanLiteralType"
 - "CastingPrecedence"
 - "String"
+- !private "StringLiteralType"
 - "ToDoDetailTableViewController"
 - "UIBarButtonItem"
 - "UIDatePicker"
@@ -27,6 +29,7 @@ depends-top-level:
 - "UITableViewController"
 - "UITextField"
 - "UITextView"
+- !private "UnicodeScalarType"
 depends-member:
 - !private ["So15CALayerDelegateP", "text"]
 - ["s7CVarArgP", ""]

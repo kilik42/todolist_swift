@@ -10,129 +10,363 @@ provides-dynamic-lookup:
 - "datePicker"
 - "nameField"
 - "noteView"
+- "prepare"
 - "saveBarButton"
+- "toDoItem"
 - "viewDidLoad"
 depends-top-level:
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "String"
 - "ToDoDetailTableViewController"
 - "UIBarButtonItem"
 - "UIDatePicker"
+- !private "UINavigationController"
+- "UIStoryboardSegue"
 - "UITableViewController"
 - "UITextField"
 - "UITextView"
 depends-member:
+- !private ["So15CALayerDelegateP", "text"]
 - ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "dismiss"]
+- !private ["s7CVarArgP", "nameField"]
+- !private ["s7CVarArgP", "navigationController"]
+- !private ["s7CVarArgP", "popViewController"]
+- !private ["s7CVarArgP", "presentingViewController"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "toDoItem"]
 - !private ["s7CVarArgP", "viewDidLoad"]
 - ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "dismiss"]
+- !private ["s28CustomDebugStringConvertibleP", "nameField"]
+- !private ["s28CustomDebugStringConvertibleP", "navigationController"]
+- !private ["s28CustomDebugStringConvertibleP", "popViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "presentingViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "toDoItem"]
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s17CustomReflectableP", "text"]
 - ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "dismiss"]
+- !private ["s23CustomStringConvertibleP", "nameField"]
+- !private ["s23CustomStringConvertibleP", "navigationController"]
+- !private ["s23CustomStringConvertibleP", "popViewController"]
+- !private ["s23CustomStringConvertibleP", "presentingViewController"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "toDoItem"]
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["Se", "text"]
+- !private ["SE", "text"]
 - ["SQ", ""]
+- !private ["SQ", "dismiss"]
+- !private ["SQ", "nameField"]
+- !private ["SQ", "navigationController"]
+- !private ["SQ", "popViewController"]
+- !private ["SQ", "presentingViewController"]
+- !private ["SQ", "text"]
+- !private ["SQ", "toDoItem"]
 - !private ["SQ", "viewDidLoad"]
+- !private ["s23ExpressibleByNilLiteralP", "text"]
 - ["SH", ""]
+- !private ["SH", "dismiss"]
+- !private ["SH", "nameField"]
+- !private ["SH", "navigationController"]
+- !private ["SH", "popViewController"]
+- !private ["SH", "presentingViewController"]
+- !private ["SH", "text"]
+- !private ["SH", "toDoItem"]
 - !private ["SH", "viewDidLoad"]
 - ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "dismiss"]
+- !private ["So8NSCodingP", "nameField"]
+- !private ["So8NSCodingP", "navigationController"]
+- !private ["So8NSCodingP", "popViewController"]
+- !private ["So8NSCodingP", "presentingViewController"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "toDoItem"]
 - !private ["So8NSCodingP", "viewDidLoad"]
 - ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "dismiss"]
+- !private ["So26NSExtensionRequestHandlingP", "nameField"]
+- !private ["So26NSExtensionRequestHandlingP", "navigationController"]
+- !private ["So26NSExtensionRequestHandlingP", "popViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "presentingViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "toDoItem"]
 - !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So8NSObjectC", "String"]
 - ["So8NSObjectC", "UIBarButtonItem"]
 - ["So8NSObjectC", "UIDatePicker"]
+- !private ["So8NSObjectC", "UINavigationController"]
+- ["So8NSObjectC", "UIStoryboardSegue"]
 - ["So8NSObjectC", "UITextField"]
 - ["So8NSObjectC", "UITextView"]
 - ["So8NSObjectC", "cancelButtonPressed"]
 - ["So8NSObjectC", "datePicker"]
+- !private ["So8NSObjectC", "dismiss"]
 - ["So8NSObjectC", "init"]
 - ["So8NSObjectC", "nameField"]
+- !private ["So8NSObjectC", "navigationController"]
 - ["So8NSObjectC", "noteView"]
+- !private ["So8NSObjectC", "popViewController"]
+- ["So8NSObjectC", "prepare"]
+- !private ["So8NSObjectC", "presentingViewController"]
 - ["So8NSObjectC", "saveBarButton"]
+- !private ["So8NSObjectC", "text"]
+- ["So8NSObjectC", "toDoItem"]
 - ["So8NSObjectC", "viewDidLoad"]
 - ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "dismiss"]
+- !private ["So8NSObjectP", "nameField"]
+- !private ["So8NSObjectP", "navigationController"]
+- !private ["So8NSObjectP", "popViewController"]
+- !private ["So8NSObjectP", "presentingViewController"]
+- !private ["So8NSObjectP", "text"]
+- !private ["So8NSObjectP", "toDoItem"]
 - !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["Sq", "text"]
+- ["18ToDoAppListProject0aB25DetailTableViewControllerC", "String"]
 - ["18ToDoAppListProject0aB25DetailTableViewControllerC", "UIBarButtonItem"]
 - ["18ToDoAppListProject0aB25DetailTableViewControllerC", "UIDatePicker"]
+- !private ["18ToDoAppListProject0aB25DetailTableViewControllerC", "UINavigationController"]
+- ["18ToDoAppListProject0aB25DetailTableViewControllerC", "UIStoryboardSegue"]
 - ["18ToDoAppListProject0aB25DetailTableViewControllerC", "UITextField"]
 - ["18ToDoAppListProject0aB25DetailTableViewControllerC", "UITextView"]
 - ["18ToDoAppListProject0aB25DetailTableViewControllerC", "cancelButtonPressed"]
 - ["18ToDoAppListProject0aB25DetailTableViewControllerC", "datePicker"]
 - ["18ToDoAppListProject0aB25DetailTableViewControllerC", "deinit"]
+- !private ["18ToDoAppListProject0aB25DetailTableViewControllerC", "dismiss"]
 - ["18ToDoAppListProject0aB25DetailTableViewControllerC", "init"]
 - ["18ToDoAppListProject0aB25DetailTableViewControllerC", "nameField"]
+- !private ["18ToDoAppListProject0aB25DetailTableViewControllerC", "navigationController"]
 - ["18ToDoAppListProject0aB25DetailTableViewControllerC", "noteView"]
+- ["18ToDoAppListProject0aB25DetailTableViewControllerC", "prepare"]
+- !private ["18ToDoAppListProject0aB25DetailTableViewControllerC", "presentingViewController"]
 - ["18ToDoAppListProject0aB25DetailTableViewControllerC", "saveBarButton"]
+- ["18ToDoAppListProject0aB25DetailTableViewControllerC", "toDoItem"]
 - ["18ToDoAppListProject0aB25DetailTableViewControllerC", "viewDidLoad"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "text"]
 - ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "dismiss"]
+- !private ["So21UIAppearanceContainerP", "nameField"]
+- !private ["So21UIAppearanceContainerP", "navigationController"]
+- !private ["So21UIAppearanceContainerP", "popViewController"]
+- !private ["So21UIAppearanceContainerP", "presentingViewController"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "toDoItem"]
 - !private ["So21UIAppearanceContainerP", "viewDidLoad"]
 - ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "dismiss"]
+- !private ["So18UIContentContainerP", "nameField"]
+- !private ["So18UIContentContainerP", "navigationController"]
+- !private ["So18UIContentContainerP", "popViewController"]
+- !private ["So18UIContentContainerP", "presentingViewController"]
+- !private ["So18UIContentContainerP", "toDoItem"]
 - !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So9UIControlC", "text"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "text"]
 - ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "dismiss"]
+- !private ["So18UIFocusEnvironmentP", "nameField"]
+- !private ["So18UIFocusEnvironmentP", "navigationController"]
+- !private ["So18UIFocusEnvironmentP", "popViewController"]
+- !private ["So18UIFocusEnvironmentP", "presentingViewController"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "toDoItem"]
 - !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So20UIFocusItemContainerP", "text"]
+- !private ["So10UIKeyInputP", "text"]
+- !private ["So24UILargeContentViewerItemP", "text"]
+- !private ["So22UINavigationControllerC", "popViewController"]
 - ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "dismiss"]
+- !private ["So30UIPasteConfigurationSupportingP", "nameField"]
+- !private ["So30UIPasteConfigurationSupportingP", "navigationController"]
+- !private ["So30UIPasteConfigurationSupportingP", "popViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "presentingViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "toDoItem"]
 - !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So11UIResponderC", "String"]
 - ["So11UIResponderC", "UIBarButtonItem"]
 - ["So11UIResponderC", "UIDatePicker"]
+- !private ["So11UIResponderC", "UINavigationController"]
+- ["So11UIResponderC", "UIStoryboardSegue"]
 - ["So11UIResponderC", "UITextField"]
 - ["So11UIResponderC", "UITextView"]
 - ["So11UIResponderC", "cancelButtonPressed"]
 - ["So11UIResponderC", "datePicker"]
+- !private ["So11UIResponderC", "dismiss"]
 - ["So11UIResponderC", "init"]
 - ["So11UIResponderC", "nameField"]
+- !private ["So11UIResponderC", "navigationController"]
 - ["So11UIResponderC", "noteView"]
+- !private ["So11UIResponderC", "popViewController"]
+- ["So11UIResponderC", "prepare"]
+- !private ["So11UIResponderC", "presentingViewController"]
 - ["So11UIResponderC", "saveBarButton"]
+- !private ["So11UIResponderC", "text"]
+- ["So11UIResponderC", "toDoItem"]
 - ["So11UIResponderC", "viewDidLoad"]
 - ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "dismiss"]
+- !private ["So30UIResponderStandardEditActionsP", "nameField"]
+- !private ["So30UIResponderStandardEditActionsP", "navigationController"]
+- !private ["So30UIResponderStandardEditActionsP", "popViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "presentingViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "toDoItem"]
 - !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
 - ["So20UIScrollViewDelegateP", ""]
+- !private ["So20UIScrollViewDelegateP", "dismiss"]
+- !private ["So20UIScrollViewDelegateP", "nameField"]
+- !private ["So20UIScrollViewDelegateP", "navigationController"]
+- !private ["So20UIScrollViewDelegateP", "presentingViewController"]
+- !private ["So20UIScrollViewDelegateP", "toDoItem"]
 - !private ["So20UIScrollViewDelegateP", "viewDidLoad"]
 - ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "dismiss"]
+- !private ["So16UIStateRestoringP", "nameField"]
+- !private ["So16UIStateRestoringP", "navigationController"]
+- !private ["So16UIStateRestoringP", "popViewController"]
+- !private ["So16UIStateRestoringP", "presentingViewController"]
+- !private ["So16UIStateRestoringP", "toDoItem"]
 - !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So21UITableViewControllerC", "String"]
 - ["So21UITableViewControllerC", "UIBarButtonItem"]
 - ["So21UITableViewControllerC", "UIDatePicker"]
+- !private ["So21UITableViewControllerC", "UINavigationController"]
+- ["So21UITableViewControllerC", "UIStoryboardSegue"]
 - ["So21UITableViewControllerC", "UITextField"]
 - ["So21UITableViewControllerC", "UITextView"]
 - ["So21UITableViewControllerC", ""]
 - ["So21UITableViewControllerC", "cancelButtonPressed"]
 - ["So21UITableViewControllerC", "datePicker"]
+- !private ["So21UITableViewControllerC", "dismiss"]
 - ["So21UITableViewControllerC", "init"]
 - ["So21UITableViewControllerC", "nameField"]
+- !private ["So21UITableViewControllerC", "navigationController"]
 - ["So21UITableViewControllerC", "noteView"]
+- ["So21UITableViewControllerC", "prepare"]
+- !private ["So21UITableViewControllerC", "presentingViewController"]
 - ["So21UITableViewControllerC", "saveBarButton"]
+- ["So21UITableViewControllerC", "toDoItem"]
 - ["So21UITableViewControllerC", "viewDidLoad"]
 - ["So21UITableViewDataSourceP", ""]
+- !private ["So21UITableViewDataSourceP", "dismiss"]
+- !private ["So21UITableViewDataSourceP", "nameField"]
+- !private ["So21UITableViewDataSourceP", "navigationController"]
+- !private ["So21UITableViewDataSourceP", "presentingViewController"]
+- !private ["So21UITableViewDataSourceP", "toDoItem"]
 - !private ["So21UITableViewDataSourceP", "viewDidLoad"]
 - ["So19UITableViewDelegateP", ""]
+- !private ["So19UITableViewDelegateP", "dismiss"]
+- !private ["So19UITableViewDelegateP", "nameField"]
+- !private ["So19UITableViewDelegateP", "navigationController"]
+- !private ["So19UITableViewDelegateP", "presentingViewController"]
+- !private ["So19UITableViewDelegateP", "toDoItem"]
 - !private ["So19UITableViewDelegateP", "viewDidLoad"]
+- !private ["So15UITextDraggableP", "text"]
+- !private ["So15UITextDroppableP", "text"]
+- !private ["So11UITextFieldC", "text"]
+- !private ["So11UITextInputP", "text"]
+- !private ["So17UITextInputTraitsP", "text"]
+- !private ["So34UITextPasteConfigurationSupportingP", "text"]
 - ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "dismiss"]
+- !private ["So18UITraitEnvironmentP", "nameField"]
+- !private ["So18UITraitEnvironmentP", "navigationController"]
+- !private ["So18UITraitEnvironmentP", "popViewController"]
+- !private ["So18UITraitEnvironmentP", "presentingViewController"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "toDoItem"]
 - !private ["So18UITraitEnvironmentP", "viewDidLoad"]
 - ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "dismiss"]
+- !private ["So23UIUserActivityRestoringP", "nameField"]
+- !private ["So23UIUserActivityRestoringP", "navigationController"]
+- !private ["So23UIUserActivityRestoringP", "popViewController"]
+- !private ["So23UIUserActivityRestoringP", "presentingViewController"]
+- !private ["So23UIUserActivityRestoringP", "text"]
+- !private ["So23UIUserActivityRestoringP", "toDoItem"]
 - !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So6UIViewC", "text"]
+- ["So16UIViewControllerC", "String"]
 - ["So16UIViewControllerC", "UIBarButtonItem"]
 - ["So16UIViewControllerC", "UIDatePicker"]
+- !private ["So16UIViewControllerC", "UINavigationController"]
+- ["So16UIViewControllerC", "UIStoryboardSegue"]
 - ["So16UIViewControllerC", "UITextField"]
 - ["So16UIViewControllerC", "UITextView"]
 - ["So16UIViewControllerC", "cancelButtonPressed"]
 - ["So16UIViewControllerC", "datePicker"]
+- !private ["So16UIViewControllerC", "dismiss"]
 - ["So16UIViewControllerC", "init"]
 - ["So16UIViewControllerC", "nameField"]
+- !private ["So16UIViewControllerC", "navigationController"]
 - ["So16UIViewControllerC", "noteView"]
+- !private ["So16UIViewControllerC", "popViewController"]
+- ["So16UIViewControllerC", "prepare"]
+- !private ["So16UIViewControllerC", "presentingViewController"]
 - ["So16UIViewControllerC", "saveBarButton"]
+- ["So16UIViewControllerC", "toDoItem"]
 - ["So16UIViewControllerC", "viewDidLoad"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dismiss"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "nameField"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "popViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "presentingViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "toDoItem"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dismiss"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "nameField"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "navigationController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "popViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "presentingViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "text"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "toDoItem"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "text"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "text"]
 depends-nominal:
+- !private "So15CALayerDelegateP"
 - "s7CVarArgP"
 - "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
 - "SQ"
+- !private "s23ExpressibleByNilLiteralP"
 - "SH"
 - "So8NSCodingP"
 - "So26NSExtensionRequestHandlingP"
 - "So8NSObjectC"
 - "So8NSObjectP"
+- !private "Sq"
 - "18ToDoAppListProject0aB25DetailTableViewControllerC"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
 - "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
 - "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So10UIKeyInputP"
+- !private "So24UILargeContentViewerItemP"
+- !private "So22UINavigationControllerC"
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
@@ -141,11 +375,20 @@ depends-nominal:
 - "So21UITableViewControllerC"
 - "So21UITableViewDataSourceP"
 - "So19UITableViewDelegateP"
+- !private "So15UITextDraggableP"
+- !private "So15UITextDroppableP"
+- !private "So11UITextFieldC"
+- !private "So11UITextInputP"
+- !private "So17UITextInputTraitsP"
+- !private "So34UITextPasteConfigurationSupportingP"
 - "So18UITraitEnvironmentP"
 - "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
 - "So16UIViewControllerC"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
@@ -174,4 +417,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "7ecdc1e41902657605f6c1a3710ab9ee"
+interface-hash: "5818a2ed07b68816fdc38b1361d856f0"

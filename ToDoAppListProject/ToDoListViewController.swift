@@ -22,6 +22,8 @@ class ToDoListViewController: UIViewController,UITableViewDelegate, UITableViewD
         tableview.dataSource = self
         tableview.delegate = self
         
+        
+        
     }
 
     
@@ -44,6 +46,10 @@ class ToDoListViewController: UIViewController,UITableViewDelegate, UITableViewD
             let destination = segue.destination as! ToDoDetailTableViewController
             let selectedIndexPath = tableview.indexPathForSelectedRow!
             destination.toDoItem = toDoArray[selectedIndexPath.row]
+        } else {
+            if let selectedIndexPath = tableview.indexPathForSelectedRow{
+                tableview.deselectRow(at: selectedIndexPath, animated: true)
+            }
         }
     }
 
@@ -52,8 +58,17 @@ class ToDoListViewController: UIViewController,UITableViewDelegate, UITableViewD
         if let selectedIndexPath = tableview.indexPathForSelectedRow{
             toDoArray[selectedIndexPath.row] = source.toDoItem
             tableview.reloadRows(at: [selectedIndexPath], with: .automatic)
+        } else{
+            let newIndexPath = IndexPath(row: toDoArray.count, section:0)
+            toDoArray.append(source.toDoItem)
+            tableview.insertRows(at: [newIndexPath], with: .bottom)
+            tableview.scrollToRow(at: newIndexPath, at: .bottom, animated: true)
+            
         }
+        
     }
+    
+    
     
     
 }

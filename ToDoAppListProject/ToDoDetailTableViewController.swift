@@ -27,6 +27,10 @@ class ToDoDetailTableViewController: UITableViewController {
         super.viewDidLoad()
 
         nameField.text = toDoItem
+        
+        if toDoItem == nil{
+            toDoItem = " "
+        }
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
