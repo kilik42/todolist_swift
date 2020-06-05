@@ -71,9 +71,17 @@ class ToDoListViewController: UIViewController,UITableViewDelegate, UITableViewD
     
     
     
-    @IBAction func editButtonPressed(_ sender: Any) {
+    @IBAction func editButtonPressed(_ sender: UIBarButtonItem) {
         
-        
+        if tableview.isEditing{
+            tableview.setEditing(true, animated: true)
+            sender.title = "Done"
+            addBarButton.isEnabled = false
+        }else{
+            tableview.setEditing(true, animated: true)
+            sender.title = "Done"
+            addBarButton.isEnabled = false
+        }
     }
     
 }
