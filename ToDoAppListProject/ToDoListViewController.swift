@@ -74,9 +74,9 @@ class ToDoListViewController: UIViewController,UITableViewDelegate, UITableViewD
     @IBAction func editButtonPressed(_ sender: UIBarButtonItem) {
         
         if tableview.isEditing{
-            tableview.setEditing(true, animated: true)
+            tableview.setEditing(false, animated: true)
             sender.title = "Done"
-            addBarButton.isEnabled = false
+            addBarButton.isEnabled = true
         }else{
             tableview.setEditing(true, animated: true)
             sender.title = "Done"
@@ -84,5 +84,23 @@ class ToDoListViewController: UIViewController,UITableViewDelegate, UITableViewD
         }
     }
     
+    
+    
+    
+    //commit editing stylee
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            toDoArray.remove(at: indexPath.row)
+            tableView.deleteRows(at: [indexPath], with: .fade)
+            
+            
+        }
+    }
+    
+    func tableView(_ tableView: UITableView, moveRowAt sourceIndexPath: IndexPath, to destinationIndexPath: IndexPath) {
+        let itemToMove = toDoArray[sourceIndexPath.row]
+        toDoArray.remove(at: sourceIndexPath.row)
+        toDoArray.insert(itemToMove, at: destinationIndexPath.row)
+    }
 }
 

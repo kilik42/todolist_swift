@@ -6,6 +6,40 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
+		<key>0C0914C1-6CF1-4A07-9473-FE3ECB7EB9D8</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>0C0914C1-6CF1-4A07-9473-FE3ECB7EB9D8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ToDoAppListProject project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ToDoAppListProject</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ToDoAppListProject</string>
+			<key>timeStartedRecording</key>
+			<real>613025928.06869304</real>
+			<key>timeStoppedRecording</key>
+			<real>613025928.94222295</real>
+			<key>title</key>
+			<string>Build ToDoAppListProject</string>
+			<key>uniqueIdentifier</key>
+			<string>0C0914C1-6CF1-4A07-9473-FE3ECB7EB9D8</string>
+		</dict>
 		<key>2A02372E-F9FA-4D25-B80D-87CC536FCB2F</key>
 		<dict>
 			<key>className</key>
@@ -39,6 +73,142 @@
 			<string>Build ToDoAppListProject</string>
 			<key>uniqueIdentifier</key>
 			<string>2A02372E-F9FA-4D25-B80D-87CC536FCB2F</string>
+		</dict>
+		<key>35174384-F202-460B-B090-A217E94C87C8</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>35174384-F202-460B-B090-A217E94C87C8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ToDoAppListProject project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ToDoAppListProject</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ToDoAppListProject</string>
+			<key>timeStartedRecording</key>
+			<real>613023238.34618998</real>
+			<key>timeStoppedRecording</key>
+			<real>613023243.68417799</real>
+			<key>title</key>
+			<string>Build ToDoAppListProject</string>
+			<key>uniqueIdentifier</key>
+			<string>35174384-F202-460B-B090-A217E94C87C8</string>
+		</dict>
+		<key>7D21DD11-3560-47F2-B1E0-FD4E8CAF2455</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7D21DD11-3560-47F2-B1E0-FD4E8CAF2455.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ToDoAppListProject project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ToDoAppListProject</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ToDoAppListProject</string>
+			<key>timeStartedRecording</key>
+			<real>613025680.291026</real>
+			<key>timeStoppedRecording</key>
+			<real>613025681.46932495</real>
+			<key>title</key>
+			<string>Build ToDoAppListProject</string>
+			<key>uniqueIdentifier</key>
+			<string>7D21DD11-3560-47F2-B1E0-FD4E8CAF2455</string>
+		</dict>
+		<key>88965651-7D83-4ABF-A250-BA3D641CEBE3</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>88965651-7D83-4ABF-A250-BA3D641CEBE3.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ToDoAppListProject project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ToDoAppListProject</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ToDoAppListProject</string>
+			<key>timeStartedRecording</key>
+			<real>613025877.64454603</real>
+			<key>timeStoppedRecording</key>
+			<real>613025878.58530104</real>
+			<key>title</key>
+			<string>Build ToDoAppListProject</string>
+			<key>uniqueIdentifier</key>
+			<string>88965651-7D83-4ABF-A250-BA3D641CEBE3</string>
+		</dict>
+		<key>F3050B1E-69C7-44FD-B3CE-DF531E1D34CF</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F3050B1E-69C7-44FD-B3CE-DF531E1D34CF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ToDoAppListProject project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ToDoAppListProject</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ToDoAppListProject</string>
+			<key>timeStartedRecording</key>
+			<real>613023246.10034299</real>
+			<key>timeStoppedRecording</key>
+			<real>613023246.16138804</real>
+			<key>title</key>
+			<string>Build ToDoAppListProject</string>
+			<key>uniqueIdentifier</key>
+			<string>F3050B1E-69C7-44FD-B3CE-DF531E1D34CF</string>
 		</dict>
 	</dict>
 </dict>
