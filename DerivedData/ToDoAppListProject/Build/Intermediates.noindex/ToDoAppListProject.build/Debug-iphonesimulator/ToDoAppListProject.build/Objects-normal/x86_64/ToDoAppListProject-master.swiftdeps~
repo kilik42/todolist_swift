@@ -1,8 +1,9 @@
 version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
 options: "34c6be22531cac5e9265efb2cecc3d7b"
-build_time: [1591333077, 696985000]
+build_time: [1592706962, 309912000]
 inputs:
-  "/Users/marvinevins/Library/Autosave Information/ToDoAppListProject/ToDoAppListProject/ToDoListViewController.swift": [1591333077, 202750072]
+  "/Users/marvinevins/Library/Autosave Information/ToDoAppListProject/ToDoAppListProject/ToDoListViewController.swift": !dirty [1592706864, 965575714]
   "/Users/marvinevins/Library/Autosave Information/ToDoAppListProject/ToDoAppListProject/AppDelegate.swift": [1591033524, 689743675]
-  "/Users/marvinevins/Library/Autosave Information/ToDoAppListProject/ToDoAppListProject/ToDoDetailTableViewController.swift": [1591066946, 414181489]
+  "/Users/marvinevins/Library/Autosave Information/ToDoAppListProject/ToDoAppListProject/ToDoItem.swift": [9223372036, 854775807]
+  "/Users/marvinevins/Library/Autosave Information/ToDoAppListProject/ToDoAppListProject/ToDoDetailTableViewController.swift": !dirty [1592705839, 448330334]
   "/Users/marvinevins/Library/Autosave Information/ToDoAppListProject/ToDoAppListProject/SceneDelegate.swift": [1591033524, 698325453]

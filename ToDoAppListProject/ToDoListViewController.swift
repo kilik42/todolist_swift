@@ -10,11 +10,15 @@ import UIKit
 
 class ToDoListViewController: UIViewController,UITableViewDelegate, UITableViewDataSource {
 
+  
     
     @IBOutlet weak var addBarButton: UIBarButtonItem!
     @IBOutlet weak var tableview: UITableView!
     
     var toDoArray = ["learn swift","learn blockchain","learn ml","buidl portfolio","learn mobile development"]
+    
+    var toDoItems: [ToDoItem] = []
+    
     
     
     override func viewDidLoad() {
@@ -31,12 +35,12 @@ class ToDoListViewController: UIViewController,UITableViewDelegate, UITableViewD
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         print("numbers of rows in section was just called \(toDoArray.count)")
-        return toDoArray.count
+        return toDoItems.count
        }
        
        func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
-        cell.textLabel?.text = toDoArray[indexPath.row]
+        cell.textLabel?.text = toDoItems[indexPath.row].name
         
         return cell
        }
@@ -46,7 +50,7 @@ class ToDoListViewController: UIViewController,UITableViewDelegate, UITableViewD
         if segue.identifier == "ShowDetail"{
             let destination = segue.destination as! ToDoDetailTableViewController
             let selectedIndexPath = tableview.indexPathForSelectedRow!
-            destination.toDoItem = toDoArray[selectedIndexPath.row]
+            destination.toDoItem = toDoItems[selectedIndexPath.row]
         } else {
             if let selectedIndexPath = tableview.indexPathForSelectedRow{
                 tableview.deselectRow(at: selectedIndexPath, animated: true)
@@ -57,11 +61,11 @@ class ToDoListViewController: UIViewController,UITableViewDelegate, UITableViewD
     @IBAction func unwindFromDetail(segue: UIStoryboardSegue){
         let source = segue.source as! ToDoDetailTableViewController
         if let selectedIndexPath = tableview.indexPathForSelectedRow{
-            toDoArray[selectedIndexPath.row] = source.toDoItem
+            toDoItems[selectedIndexPath.row] = source.toDoItem
             tableview.reloadRows(at: [selectedIndexPath], with: .automatic)
         } else{
             let newIndexPath = IndexPath(row: toDoArray.count, section:0)
-            toDoArray.append(source.toDoItem)
+            toDoItems.append(source.toDoItem)
             tableview.insertRows(at: [newIndexPath], with: .bottom)
             tableview.scrollToRow(at: newIndexPath, at: .bottom, animated: true)
             
@@ -90,7 +94,7 @@ class ToDoListViewController: UIViewController,UITableViewDelegate, UITableViewD
     //commit editing stylee
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
-            toDoArray.remove(at: indexPath.row)
+            toDoItems.remove(at: indexPath.row)
             tableView.deleteRows(at: [indexPath], with: .fade)
             
             
@@ -98,9 +102,9 @@ class ToDoListViewController: UIViewController,UITableViewDelegate, UITableViewD
     }
     
     func tableView(_ tableView: UITableView, moveRowAt sourceIndexPath: IndexPath, to destinationIndexPath: IndexPath) {
-        let itemToMove = toDoArray[sourceIndexPath.row]
-        toDoArray.remove(at: sourceIndexPath.row)
-        toDoArray.insert(itemToMove, at: destinationIndexPath.row)
+        let itemToMove = toDoItems[sourceIndexPath.row]
+        toDoItems.remove(at: sourceIndexPath.row)
+        toDoItems.insert(itemToMove, at: destinationIndexPath.row)
     }
 }
 
