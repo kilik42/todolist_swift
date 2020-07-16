@@ -1,8 +1,8 @@
 version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
 options: "34c6be22531cac5e9265efb2cecc3d7b"
-build_time: [1592831429, 772701000]
+build_time: [1594761821, 623049000]
 inputs:
-  "/Users/marvinevins/Library/Autosave Information/ToDoAppListProject/ToDoAppListProject/ToDoListViewController.swift": [1592708285, 36948749]
+  "/Users/marvinevins/Library/Autosave Information/ToDoAppListProject/ToDoAppListProject/ToDoListViewController.swift": [1594511728, 260843244]
   "/Users/marvinevins/Library/Autosave Information/ToDoAppListProject/ToDoAppListProject/AppDelegate.swift": [1591033524, 689743675]
   "/Users/marvinevins/Library/Autosave Information/ToDoAppListProject/ToDoAppListProject/ToDoItem.swift": [1592706965, 508792303]
   "/Users/marvinevins/Library/Autosave Information/ToDoAppListProject/ToDoAppListProject/ToDoDetailTableViewController.swift": [1592707420, 569931395]

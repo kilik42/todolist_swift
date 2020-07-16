@@ -31,14 +31,29 @@ class ToDoListViewController: UIViewController,UITableViewDelegate, UITableViewD
         
     }
 
-    
+    //saving data to ios device
+    func saveData(){
+        let directoryURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
+        
+        let documentURL = directoryURL.appendingPathComponent("todos").appendingPathComponent("todos").appendingPathExtension("json")
+        let jsonEncoder = JSONEncoder()
+        let data = try? jsonEncoder.encode(toDoItems)
+        do {
+            try data?.write(to: documentURL, options: .noFileProtection)
+            
+        }catch{
+            print(" error: could not save data \(error.localizedDescription)")
+        }
+        
+        
+    }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         print("numbers of rows in section was just called \(toDoArray.count)")
         return toDoItems.count
        }
        
-       func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
         cell.textLabel?.text = toDoItems[indexPath.row].name
         
