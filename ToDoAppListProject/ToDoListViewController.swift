@@ -26,11 +26,29 @@ class ToDoListViewController: UIViewController,UITableViewDelegate, UITableViewD
         // Do any additional setup after loading the view.
         tableview.dataSource = self
         tableview.delegate = self
-        
+        loadData()
         
         
     }
 
+    func loadData(){
+        let directoryURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
+               
+        let documentURL = directoryURL.appendingPathComponent("todos").appendingPathComponent("todos").appendingPathExtension("json")
+        
+        guard let data = try? Data(contentsOf: documentURL) else {return}
+        
+        let jsonDecoder = JSONDecoder()
+        
+        do{
+            toDoItems = try jsonDecoder.decode(Array<ToDoItem>.self, from : data)
+            tableview.reloadData()
+        }catch{
+            print("could not load data: \(error.localizedDescription)")
+        }
+    }
+    
+    
     //saving data to ios device
     func saveData(){
         let directoryURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
@@ -85,7 +103,7 @@ class ToDoListViewController: UIViewController,UITableViewDelegate, UITableViewD
             tableview.scrollToRow(at: newIndexPath, at: .bottom, animated: true)
             
         }
-        
+        saveData()
     }
     
     
@@ -112,7 +130,7 @@ class ToDoListViewController: UIViewController,UITableViewDelegate, UITableViewD
             toDoItems.remove(at: indexPath.row)
             tableView.deleteRows(at: [indexPath], with: .fade)
             
-            
+            saveData()
         }
     }
     
@@ -120,6 +138,7 @@ class ToDoListViewController: UIViewController,UITableViewDelegate, UITableViewD
         let itemToMove = toDoItems[sourceIndexPath.row]
         toDoItems.remove(at: sourceIndexPath.row)
         toDoItems.insert(itemToMove, at: destinationIndexPath.row)
+        saveData()
     }
 }
 
