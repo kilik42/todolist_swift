@@ -233,6 +233,8 @@ SWIFT_CLASS("_TtC18ToDoAppListProject13SceneDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UILabel;
+@class UISwitch;
 @class UIBarButtonItem;
 @class UITextField;
 @class UIDatePicker;
@@ -243,6 +245,8 @@ SWIFT_CLASS("_TtC18ToDoAppListProject13SceneDelegate")
 
 SWIFT_CLASS("_TtC18ToDoAppListProject29ToDoDetailTableViewController")
 @interface ToDoDetailTableViewController : UITableViewController
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified dateLabel;
+@property (nonatomic, weak) IBOutlet UISwitch * _Null_unspecified reminderSwitch;
 @property (nonatomic, weak) IBOutlet UIBarButtonItem * _Null_unspecified saveBarButton;
 @property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified nameField;
 @property (nonatomic, weak) IBOutlet UIDatePicker * _Null_unspecified datePicker;
@@ -250,6 +254,7 @@ SWIFT_CLASS("_TtC18ToDoAppListProject29ToDoDetailTableViewController")
 - (void)viewDidLoad;
 - (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
 - (IBAction)cancelButtonPressed:(id _Nonnull)sender;
+- (IBAction)reminderSwitchChanged:(id _Nonnull)sender;
 - (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;

@@ -10,7 +10,9 @@ import UIKit
 
 class ToDoDetailTableViewController: UITableViewController {
 
-   
+    @IBOutlet weak var dateLabel: UILabel!
+    @IBOutlet weak var reminderSwitch: UISwitch!
+    
     @IBOutlet weak var saveBarButton: UIBarButtonItem!
     
     @IBOutlet weak var nameField: UITextField!
@@ -29,16 +31,23 @@ class ToDoDetailTableViewController: UITableViewController {
         
         
         if toDoItem == nil{
-            toDoItem = ToDoItem(name: "xian wa", date: Date(), notes: "")
+            toDoItem = ToDoItem(name: "", date: Date(), notes: "", reminderSet: false)
         }
-        
-        nameField.text = toDoItem.name
-        datePicker.date = toDoItem.date
-        noteView.text = toDoItem.notes
+        updateUserInterface()
+       
+
+    }
+    
+    func updateUserInterface(){
+               nameField.text = toDoItem.name
+               datePicker.date = toDoItem.date
+               noteView.text = toDoItem.notes
+               reminderSwitch.isOn = toDoItem.reminderSet
+               dateLabel.textColor = (reminderSwitch.isOn ? .black : .gray)
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        toDoItem = ToDoItem(name: nameField.text!, date: datePicker.date, notes: noteView.text)
+        toDoItem = ToDoItem(name: nameField.text!, date: datePicker.date, notes: noteView.text, reminderSet: reminderSwitch.isOn)
     }
 
     @IBAction func cancelButtonPressed(_ sender: Any) {
@@ -49,6 +58,17 @@ class ToDoDetailTableViewController: UITableViewController {
             navigationController?.popViewController(animated: true)
             
         }
+    }
+    
+    
+    @IBAction func reminderSwitchChanged(_ sender: Any) {
+          dateLabel.textColor = (reminderSwitch.isOn ? .black : .gray)
+        
+        //        if reminderSwitch.isOn {
+        //            dateLabel.textColor = .black
+        //        } else{
+        //            dateLabel.textColor = .gray
+        //        }
     }
     
 }

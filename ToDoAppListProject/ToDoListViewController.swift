@@ -67,9 +67,11 @@ class ToDoListViewController: UIViewController,UITableViewDelegate, UITableViewD
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        print("numbers of rows in section was just called \(toDoArray.count)")
+       // print("numbers of rows in section was just called \(toDoArray.count)")
         return toDoItems.count
        }
+    
+    
        
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
@@ -97,7 +99,7 @@ class ToDoListViewController: UIViewController,UITableViewDelegate, UITableViewD
             toDoItems[selectedIndexPath.row] = source.toDoItem
             tableview.reloadRows(at: [selectedIndexPath], with: .automatic)
         } else{
-            let newIndexPath = IndexPath(row: toDoArray.count, section:0)
+            let newIndexPath = IndexPath(row: toDoItems.count, section:0)
             toDoItems.append(source.toDoItem)
             tableview.insertRows(at: [newIndexPath], with: .bottom)
             tableview.scrollToRow(at: newIndexPath, at: .bottom, animated: true)
