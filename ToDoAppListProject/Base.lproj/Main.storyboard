@@ -95,7 +95,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="K6E-Fz-C5P">
-                                                    <rect key="frame" x="20" y="5" width="374" height="34"/>
+                                                    <rect key="frame" x="19" y="5" width="374" height="34"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
@@ -141,6 +141,9 @@
                                                 <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="UhG-a7-kum">
                                                     <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                                                    <connections>
+                                                        <action selector="datePickerChanged:" destination="A3E-vW-ABZ" eventType="valueChanged" id="gPL-LH-ydG"/>
+                                                    </connections>
                                                 </datePicker>
                                             </subviews>
                                         </tableViewCellContentView>

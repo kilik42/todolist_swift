@@ -186,8 +186,10 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import CoreGraphics;
 @import Foundation;
 @import UIKit;
+@import UserNotifications;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -206,13 +208,16 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 @class UIApplication;
+@class UNUserNotificationCenter;
+@class UNNotification;
 @class UISceneSession;
 @class UISceneConnectionOptions;
 @class UISceneConfiguration;
 
 SWIFT_CLASS("_TtC18ToDoAppListProject11AppDelegate")
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate, UNUserNotificationCenterDelegate>
 - (BOOL)application:(UIApplication * _Nonnull)application didFinishLaunchingWithOptions:(NSDictionary<UIApplicationLaunchOptionsKey, id> * _Nullable)launchOptions SWIFT_WARN_UNUSED_RESULT;
+- (void)userNotificationCenter:(UNUserNotificationCenter * _Nonnull)center willPresentNotification:(UNNotification * _Nonnull)notification withCompletionHandler:(void (^ _Nonnull)(UNNotificationPresentationOptions))completionHandler;
 - (UISceneConfiguration * _Nonnull)application:(UIApplication * _Nonnull)application configurationForConnectingSceneSession:(UISceneSession * _Nonnull)connectingSceneSession options:(UISceneConnectionOptions * _Nonnull)options SWIFT_WARN_UNUSED_RESULT;
 - (void)application:(UIApplication * _Nonnull)application didDiscardSceneSessions:(NSSet<UISceneSession *> * _Nonnull)sceneSessions;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
@@ -240,6 +245,7 @@ SWIFT_CLASS("_TtC18ToDoAppListProject13SceneDelegate")
 @class UIDatePicker;
 @class UITextView;
 @class UIStoryboardSegue;
+@class UITableView;
 @class NSBundle;
 @class NSCoder;
 
@@ -254,13 +260,14 @@ SWIFT_CLASS("_TtC18ToDoAppListProject29ToDoDetailTableViewController")
 - (void)viewDidLoad;
 - (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
 - (IBAction)cancelButtonPressed:(id _Nonnull)sender;
-- (IBAction)reminderSwitchChanged:(id _Nonnull)sender;
+- (IBAction)reminderSwitchChanged:(UISwitch * _Nonnull)sender;
+- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (IBAction)datePickerChanged:(UIDatePicker * _Nonnull)sender;
 - (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UITableView;
 @class UITableViewCell;
 
 SWIFT_CLASS("_TtC18ToDoAppListProject22ToDoListViewController")

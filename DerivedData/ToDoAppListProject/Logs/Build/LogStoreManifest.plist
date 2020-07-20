@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>209C4963-A7E3-4DB2-8785-0557ADCD0843</key>
+		<key>1DCF0510-FCF2-4310-AA46-8B709CB22B3F</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,13 +15,13 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>209C4963-A7E3-4DB2-8785-0557ADCD0843.xcactivitylog</string>
+			<string>1DCF0510-FCF2-4310-AA46-8B709CB22B3F.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>S</string>
+				<string>W</string>
 			</dict>
 			<key>schemeIdentifier-containerName</key>
 			<string>ToDoAppListProject project</string>
@@ -32,15 +32,15 @@
 			<key>signature</key>
 			<string>Build ToDoAppListProject</string>
 			<key>timeStartedRecording</key>
-			<real>616853298.31752801</real>
+			<real>616886005.30301702</real>
 			<key>timeStoppedRecording</key>
-			<real>616853299.43743598</real>
+			<real>616886010.15273499</real>
 			<key>title</key>
 			<string>Build ToDoAppListProject</string>
 			<key>uniqueIdentifier</key>
-			<string>209C4963-A7E3-4DB2-8785-0557ADCD0843</string>
+			<string>1DCF0510-FCF2-4310-AA46-8B709CB22B3F</string>
 		</dict>
-		<key>326F075C-2938-4606-B9CD-62C20C30CF14</key>
+		<key>BD779D69-BB90-4B83-AC38-6B5572B9C267</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -49,245 +49,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>326F075C-2938-4606-B9CD-62C20C30CF14.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>ToDoAppListProject project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>ToDoAppListProject</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build ToDoAppListProject</string>
-			<key>timeStartedRecording</key>
-			<real>616853108.25787997</real>
-			<key>timeStoppedRecording</key>
-			<real>616853108.99083602</real>
-			<key>title</key>
-			<string>Build ToDoAppListProject</string>
-			<key>uniqueIdentifier</key>
-			<string>326F075C-2938-4606-B9CD-62C20C30CF14</string>
-		</dict>
-		<key>3F631034-D814-400D-AD78-AFF9FF14D0AE</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>3F631034-D814-400D-AD78-AFF9FF14D0AE.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>ToDoAppListProject project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>ToDoAppListProject</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build ToDoAppListProject</string>
-			<key>timeStartedRecording</key>
-			<real>616854659.15998805</real>
-			<key>timeStoppedRecording</key>
-			<real>616854662.22872901</real>
-			<key>title</key>
-			<string>Build ToDoAppListProject</string>
-			<key>uniqueIdentifier</key>
-			<string>3F631034-D814-400D-AD78-AFF9FF14D0AE</string>
-		</dict>
-		<key>4F50812A-57DC-4B86-B17A-D589673DBC81</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>4F50812A-57DC-4B86-B17A-D589673DBC81.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>ToDoAppListProject project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>ToDoAppListProject</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build ToDoAppListProject</string>
-			<key>timeStartedRecording</key>
-			<real>616852292.37055695</real>
-			<key>timeStoppedRecording</key>
-			<real>616852295.67009103</real>
-			<key>title</key>
-			<string>Build ToDoAppListProject</string>
-			<key>uniqueIdentifier</key>
-			<string>4F50812A-57DC-4B86-B17A-D589673DBC81</string>
-		</dict>
-		<key>5038A73E-3BB3-4BC5-81CD-8F4431F13647</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>5038A73E-3BB3-4BC5-81CD-8F4431F13647.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>ToDoAppListProject project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>ToDoAppListProject</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build ToDoAppListProject</string>
-			<key>timeStartedRecording</key>
-			<real>616683899.74797499</real>
-			<key>timeStoppedRecording</key>
-			<real>616683900.38695097</real>
-			<key>title</key>
-			<string>Build ToDoAppListProject</string>
-			<key>uniqueIdentifier</key>
-			<string>5038A73E-3BB3-4BC5-81CD-8F4431F13647</string>
-		</dict>
-		<key>57F9DFE5-7DE4-433F-B281-317752E4EED6</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>57F9DFE5-7DE4-433F-B281-317752E4EED6.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>ToDoAppListProject project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>ToDoAppListProject</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build ToDoAppListProject</string>
-			<key>timeStartedRecording</key>
-			<real>616853156.23968697</real>
-			<key>timeStoppedRecording</key>
-			<real>616853157.07961404</real>
-			<key>title</key>
-			<string>Build ToDoAppListProject</string>
-			<key>uniqueIdentifier</key>
-			<string>57F9DFE5-7DE4-433F-B281-317752E4EED6</string>
-		</dict>
-		<key>59E67CD8-5480-4829-9986-55B2E09D2F7B</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>59E67CD8-5480-4829-9986-55B2E09D2F7B.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>ToDoAppListProject project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>ToDoAppListProject</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Clean ToDoAppListProject</string>
-			<key>timeStartedRecording</key>
-			<real>616854347.35925698</real>
-			<key>timeStoppedRecording</key>
-			<real>616854347.42366099</real>
-			<key>title</key>
-			<string>Clean ToDoAppListProject</string>
-			<key>uniqueIdentifier</key>
-			<string>59E67CD8-5480-4829-9986-55B2E09D2F7B</string>
-		</dict>
-		<key>71A0B10C-A4B2-418D-ACA7-7C0AB7F8FA83</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>71A0B10C-A4B2-418D-ACA7-7C0AB7F8FA83.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>ToDoAppListProject project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>ToDoAppListProject</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build ToDoAppListProject</string>
-			<key>timeStartedRecording</key>
-			<real>616854358.81729496</real>
-			<key>timeStoppedRecording</key>
-			<real>616854358.85552502</real>
-			<key>title</key>
-			<string>Build ToDoAppListProject</string>
-			<key>uniqueIdentifier</key>
-			<string>71A0B10C-A4B2-418D-ACA7-7C0AB7F8FA83</string>
-		</dict>
-		<key>92ECFE4B-7987-4C0E-A155-6035E85292D0</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>92ECFE4B-7987-4C0E-A155-6035E85292D0.xcactivitylog</string>
+			<string>BD779D69-BB90-4B83-AC38-6B5572B9C267.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -304,15 +66,15 @@
 			<key>signature</key>
 			<string>Build ToDoAppListProject</string>
 			<key>timeStartedRecording</key>
-			<real>616853658.39116502</real>
+			<real>616915273.48470902</real>
 			<key>timeStoppedRecording</key>
-			<real>616853658.80520499</real>
+			<real>616915273.96729803</real>
 			<key>title</key>
 			<string>Build ToDoAppListProject</string>
 			<key>uniqueIdentifier</key>
-			<string>92ECFE4B-7987-4C0E-A155-6035E85292D0</string>
+			<string>BD779D69-BB90-4B83-AC38-6B5572B9C267</string>
 		</dict>
-		<key>AB6E92C1-C114-4E33-AD56-B33914BAEAC6</key>
+		<key>E476FE0F-0835-400C-A80D-48B0777CEB64</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -321,13 +83,13 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>AB6E92C1-C114-4E33-AD56-B33914BAEAC6.xcactivitylog</string>
+			<string>E476FE0F-0835-400C-A80D-48B0777CEB64.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>S</string>
+				<string>E</string>
 			</dict>
 			<key>schemeIdentifier-containerName</key>
 			<string>ToDoAppListProject project</string>
@@ -338,81 +100,13 @@
 			<key>signature</key>
 			<string>Build ToDoAppListProject</string>
 			<key>timeStartedRecording</key>
-			<real>616855464.70177305</real>
+			<real>616915230.43281603</real>
 			<key>timeStoppedRecording</key>
-			<real>616855466.25768399</real>
+			<real>616915235.88093698</real>
 			<key>title</key>
 			<string>Build ToDoAppListProject</string>
 			<key>uniqueIdentifier</key>
-			<string>AB6E92C1-C114-4E33-AD56-B33914BAEAC6</string>
-		</dict>
-		<key>CBE397AF-5E80-4121-BE0E-92400C126BEA</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>CBE397AF-5E80-4121-BE0E-92400C126BEA.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>ToDoAppListProject project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>ToDoAppListProject</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build ToDoAppListProject</string>
-			<key>timeStartedRecording</key>
-			<real>616854353.16200602</real>
-			<key>timeStoppedRecording</key>
-			<real>616854357.33443701</real>
-			<key>title</key>
-			<string>Build ToDoAppListProject</string>
-			<key>uniqueIdentifier</key>
-			<string>CBE397AF-5E80-4121-BE0E-92400C126BEA</string>
-		</dict>
-		<key>FB246197-C4EE-40C5-A4A6-09E18736C159</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>FB246197-C4EE-40C5-A4A6-09E18736C159.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>ToDoAppListProject project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>ToDoAppListProject</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build ToDoAppListProject</string>
-			<key>timeStartedRecording</key>
-			<real>616853159.93633103</real>
-			<key>timeStoppedRecording</key>
-			<real>616853159.96881497</real>
-			<key>title</key>
-			<string>Build ToDoAppListProject</string>
-			<key>uniqueIdentifier</key>
-			<string>FB246197-C4EE-40C5-A4A6-09E18736C159</string>
+			<string>E476FE0F-0835-400C-A80D-48B0777CEB64</string>
 		</dict>
 	</dict>
 </dict>

@@ -7,6 +7,13 @@
 //
 
 import UIKit
+private let dateFormatter: DateFormatter = {
+    print("my date formatter")
+    let dateFormatter = DateFormatter()
+    dateFormatter.dateStyle = .short
+    dateFormatter.timeStyle = .short
+    return dateFormatter
+}()
 
 class ToDoDetailTableViewController: UITableViewController {
 
@@ -25,13 +32,18 @@ class ToDoDetailTableViewController: UITableViewController {
     
     var toDoItem: ToDoItem!
     
+    let datePickerIndexPath = IndexPath(row:1, section:1)
+    let notesTextViewIndexPath = IndexPath(row:0, section:1)
+    let notesRowHeight : CGFloat = 200
+    let defaultRowHeight: CGFloat = 44
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         
         
         if toDoItem == nil{
-            toDoItem = ToDoItem(name: "", date: Date(), notes: "", reminderSet: false)
+            toDoItem = ToDoItem(name: "", date: Date().addingTimeInterval(24*60*60), notes: "", reminderSet: false)
         }
         updateUserInterface()
        
@@ -44,6 +56,8 @@ class ToDoDetailTableViewController: UITableViewController {
                noteView.text = toDoItem.notes
                reminderSwitch.isOn = toDoItem.reminderSet
                dateLabel.textColor = (reminderSwitch.isOn ? .black : .gray)
+               dateLabel.text = dateFormatter.string(from: toDoItem.date)
+        
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -61,8 +75,12 @@ class ToDoDetailTableViewController: UITableViewController {
     }
     
     
-    @IBAction func reminderSwitchChanged(_ sender: Any) {
+    @IBAction func reminderSwitchChanged(_ sender: UISwitch) {
           dateLabel.textColor = (reminderSwitch.isOn ? .black : .gray)
+        
+        tableView.beginUpdates()
+        tableView.endUpdates()
+        
         
         //        if reminderSwitch.isOn {
         //            dateLabel.textColor = .black
@@ -71,4 +89,20 @@ class ToDoDetailTableViewController: UITableViewController {
         //        }
     }
     
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        switch indexPath{
+        case datePickerIndexPath:
+            return reminderSwitch.isOn ? datePicker.frame.height : 0
+        case notesTextViewIndexPath:
+            return notesRowHeight
+        
+        default:
+            return defaultRowHeight
+        }
+    }
+    @IBAction func datePickerChanged(_ sender: UIDatePicker) {
+        
+        dateLabel.text = dateFormatter.string(from: sender.date)
+        
+    }
 }

@@ -54,6 +54,7 @@ depends-member:
 - ["Se", "init"]
 - !private ["Se", "name"]
 - !private ["Se", "notes"]
+- !private ["Se", "notificationID"]
 - !private ["Se", "reminderSet"]
 - !private ["s7DecoderP", "container"]
 - ["SE", ""]
@@ -62,6 +63,7 @@ depends-member:
 - ["SE", "init"]
 - !private ["SE", "name"]
 - !private ["SE", "notes"]
+- !private ["SE", "notificationID"]
 - !private ["SE", "reminderSet"]
 - !private ["s7EncoderP", "container"]
 - ["SQ", "=="]
@@ -86,9 +88,13 @@ depends-member:
 - ["SH", "stringValue"]
 - !private ["s6HasherV", "combine"]
 - !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s22KeyedDecodingContainerV", "decodeIfPresent"]
 - !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
 - !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s22KeyedEncodingContainerV", "encodeIfPresent"]
 - !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encodeIfPresent"]
 - ["18ToDoAppListProject0aB4ItemV", "Bool"]
 - ["18ToDoAppListProject0aB4ItemV", "Date"]
 - ["18ToDoAppListProject0aB4ItemV", "String"]
@@ -98,6 +104,7 @@ depends-member:
 - ["18ToDoAppListProject0aB4ItemV", "init"]
 - ["18ToDoAppListProject0aB4ItemV", "name"]
 - ["18ToDoAppListProject0aB4ItemV", "notes"]
+- ["18ToDoAppListProject0aB4ItemV", "notificationID"]
 - ["18ToDoAppListProject0aB4ItemV", "reminderSet"]
 depends-nominal:
 - "s9CodingKeyP"
@@ -143,4 +150,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "9dfede136599d38db7628514848ef646"
+interface-hash: "b04ee557bc943080bd9d100a337c8395"

@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>07708073-0D51-481C-A1AC-123A94A6E74E</key>
+		<key>A62DE590-AAEC-419C-AE70-A03353608EC2</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>07708073-0D51-481C-A1AC-123A94A6E74E.xcactivitylog</string>
+			<string>A62DE590-AAEC-419C-AE70-A03353608EC2.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,217 +32,13 @@
 			<key>signature</key>
 			<string>Run ToDoAppListProject</string>
 			<key>timeStartedRecording</key>
-			<real>616853299.44084895</real>
+			<real>616886010.16515803</real>
 			<key>timeStoppedRecording</key>
-			<real>616853319.08717406</real>
+			<real>616886146.61209905</real>
 			<key>title</key>
 			<string>Run ToDoAppListProject</string>
 			<key>uniqueIdentifier</key>
-			<string>07708073-0D51-481C-A1AC-123A94A6E74E</string>
-		</dict>
-		<key>1A5120ED-A75A-4372-9239-24BA2C9BB01A</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>1A5120ED-A75A-4372-9239-24BA2C9BB01A.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>ToDoAppListProject project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>ToDoAppListProject</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run ToDoAppListProject</string>
-			<key>timeStartedRecording</key>
-			<real>616683674.63449895</real>
-			<key>timeStoppedRecording</key>
-			<real>616683731.56189096</real>
-			<key>title</key>
-			<string>Run ToDoAppListProject</string>
-			<key>uniqueIdentifier</key>
-			<string>1A5120ED-A75A-4372-9239-24BA2C9BB01A</string>
-		</dict>
-		<key>2501CADA-A2C8-4F8B-BC91-6B3EAB0EEF90</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>2501CADA-A2C8-4F8B-BC91-6B3EAB0EEF90.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>ToDoAppListProject project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>ToDoAppListProject</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run ToDoAppListProject</string>
-			<key>timeStartedRecording</key>
-			<real>616854358.85882604</real>
-			<key>timeStoppedRecording</key>
-			<real>616854659.23045695</real>
-			<key>title</key>
-			<string>Run ToDoAppListProject</string>
-			<key>uniqueIdentifier</key>
-			<string>2501CADA-A2C8-4F8B-BC91-6B3EAB0EEF90</string>
-		</dict>
-		<key>26F400E7-23FC-4A4D-977B-24DEBB20D3EA</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>26F400E7-23FC-4A4D-977B-24DEBB20D3EA.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>ToDoAppListProject project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>ToDoAppListProject</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run ToDoAppListProject</string>
-			<key>timeStartedRecording</key>
-			<real>616852295.71041906</real>
-			<key>timeStoppedRecording</key>
-			<real>616852490.86350298</real>
-			<key>title</key>
-			<string>Run ToDoAppListProject</string>
-			<key>uniqueIdentifier</key>
-			<string>26F400E7-23FC-4A4D-977B-24DEBB20D3EA</string>
-		</dict>
-		<key>2B45A86D-3F50-473F-B160-11278B3D5040</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>2B45A86D-3F50-473F-B160-11278B3D5040.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>ToDoAppListProject project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>ToDoAppListProject</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run ToDoAppListProject</string>
-			<key>timeStartedRecording</key>
-			<real>616854662.23163104</real>
-			<key>timeStoppedRecording</key>
-			<real>616855464.75128102</real>
-			<key>title</key>
-			<string>Run ToDoAppListProject</string>
-			<key>uniqueIdentifier</key>
-			<string>2B45A86D-3F50-473F-B160-11278B3D5040</string>
-		</dict>
-		<key>6353FAC4-F872-4726-858E-39DC52DAB975</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>6353FAC4-F872-4726-858E-39DC52DAB975.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>ToDoAppListProject project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>ToDoAppListProject</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run ToDoAppListProject</string>
-			<key>timeStartedRecording</key>
-			<real>616855466.260764</real>
-			<key>timeStoppedRecording</key>
-			<real>616855490.94183004</real>
-			<key>title</key>
-			<string>Run ToDoAppListProject</string>
-			<key>uniqueIdentifier</key>
-			<string>6353FAC4-F872-4726-858E-39DC52DAB975</string>
-		</dict>
-		<key>A4744B7E-C568-4692-AC86-FC8272A99C35</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>A4744B7E-C568-4692-AC86-FC8272A99C35.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>ToDoAppListProject project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>ToDoAppListProject</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run ToDoAppListProject</string>
-			<key>timeStartedRecording</key>
-			<real>616853159.97207904</real>
-			<key>timeStoppedRecording</key>
-			<real>616853224.86577904</real>
-			<key>title</key>
-			<string>Run ToDoAppListProject</string>
-			<key>uniqueIdentifier</key>
-			<string>A4744B7E-C568-4692-AC86-FC8272A99C35</string>
+			<string>A62DE590-AAEC-419C-AE70-A03353608EC2</string>
 		</dict>
 	</dict>
 </dict>
